@@ -4,12 +4,12 @@
 The Student Marks Management System is a C-based application designed to manage and store student academic records. The system allows users to add, modify, delete, search, and display student records. It also provides features to filter records by specific criteria such as branch, year, and CGPA, and to export/import records to/from a file.
 
 ## Table of Contents
-* [Features](docs/Features.md)
-* [File Structure](docs/FileStructure.md)
-* [How to Use](docs/HowtoUse.md)
-* [Requirements](docs/Requirements.md)
-* [Note](docs/Note.md)
-* [License](docs/License.md)
+* [Features](/Features)
+* [File Structure](/FileStructure)
+* [How to Use](/HowtoUse)
+* [Requirements](/Requirements)
+* [Note](/Note)
+* [License](/License)
 
 ## Features
 - **Add Record**: Add a new student record to the system.
@@ -29,34 +29,34 @@ The Student Marks Management System is a C-based application designed to manage 
 The Student Marks Management System consists of the following key files:
 
 ### Header File
-- **[`student.h`](../student.h)**: 
+- **[`student.h`](blob/main/student.h)**: 
   - Contains the structure definitions for student records.
   - Includes function prototypes used across different source files.
 
 ### Source Files
-- **[`add.c`](../add.c)**:
+- **[`add.c`](blob/main/add.c)**:
   - Implements the functionality to add a new student record.
-- **[`delete.c`](../delete.c)**:
+- **[`delete.c`](blob/main/delete.c)**:
   - Contains the logic to delete a student record based on the student's ID.
-- **[`display.c`](../display.c)**:
+- **[`display.c`](blob/main/display.c)**:
   - Implements the functionality to display a specific student record by ID.
-- **[`displayall.c`](../displayall.c)**:
+- **[`displayall.c`](blob/main/displayall.c)**:
   - Provides the functionality to display all student records stored in the system.
-- **[`export_to_file.c`](../export_to_file.c)**:
+- **[`export_to_file.c`](blob/main/export_to_file.c)**:
   - Implements the functionality to export student records to a CSV file.
-- **[`filter_by_cgpa.c`](../filter_by_cgpa.c)**:
+- **[`filter_by_cgpa.c`](blob/main/filter_by_cgpa.c)**:
   - Contains the logic to filter and display student records within a specified CGPA range.
-- **[`filter_by_year.c`](../filter_by_year.c)**:
+- **[`filter_by_year.c`](blob/main/filter_by_year.c)**:
   - Implements the functionality to filter and display records of students from a specific year.
-- **[`get_by_branch.c`](../get_by_branch.c)**:
+- **[`get_by_branch.c`](blob/main/get_by_branch.c)**:
   - Provides functionality to filter and display student records based on the branch.
 
 ### Project Configuration File
-- **[`Student_marks_management.dev`](../Student_marks_management.dev)**:
+- **[`Student_marks_management.dev`](blob/main/Student_marks_management.dev)**:
   - The Dev-C++ project file, containing settings and configuration for the project.
 
 ### Data Files
-- **[`data.csv`](../data.csv)**:
+- **[`data.csv`](blob/main/data.csv)**:
   - Stores the student records in a CSV format, used for importing/exporting data.
 
 ## How to Use
