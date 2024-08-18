@@ -6,8 +6,9 @@ The Student Marks Management System is a C-based application designed to manage 
 ## Table of Contents
 * [Features](/#Features)
 * [File Structure](/#File-Structure)
-* [How to Use](/#How-t-oUse)
+* [How to Use](/#How-to-Use)
 * [Requirements](/#Requirements)
+* [Clone this repository](/#Clone-this-repository)
 * [Note](/#Note)
 * [License](/#License)
 
@@ -67,6 +68,11 @@ The Student Marks Management System consists of the following key files:
 ## Requirements
 - C Compiler (GCC, Dev-C++, etc.)
 - A basic understanding of C programming and file handling.
+
+## Clone this repository
+- Open your terminal or command prompt and run the following command:
+    - ```bash
+      git clone https://github.com/esannihith/Student-Database-Management-In--C-
 
 ## Note
 - The default file for data storing is **"data.csv"**.
