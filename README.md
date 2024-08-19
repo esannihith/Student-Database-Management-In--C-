@@ -35,10 +35,14 @@ The Student Marks Management System consists of the following key files:
   - Includes function prototypes used across different source files.
 
 ### Source Files
+- **[`main.c`](/mainfile.c)**:
+  - Implements the main function a menu driven interface to choose among various functionalities.
 - **[`add.c`](/add.c)**:
   - Implements the functionality to add a new student record.
 - **[`delete.c`](/delete.c)**:
   - Contains the logic to delete a student record based on the student's ID.
+- **[`modify.c`](/modify.c)**:
+  - Contains the logic to modify a student record based on the student's ID.
 - **[`display.c`](display.c)**:
   - Implements the functionality to display a specific student record by ID.
 - **[`displayall.c`](/displayall.c)**:
@@ -51,13 +55,19 @@ The Student Marks Management System consists of the following key files:
   - Implements the functionality to filter and display records of students from a specific year.
 - **[`get_by_branch.c`](/get_by_branch.c)**:
   - Provides functionality to filter and display student records based on the branch.
-
+- **[`import_from_file.c`](/import_from_file.c)**:
+  - Implements the functionality to import student records from a CSV file and appends it to `data.csv` .
+- **[`restore_backup.c`](/restore_backup.c)**:
+  -  Implements the functionality to restore data from a backup file .
+- **[`search.c`](/search.c)**:
+  - Implements the functionality to search for a new student record based on student id.
+  
 ### Project Configuration File
 - **[`Student_marks_management.dev`](/Student_marks_management.dev)**:
   - The Dev-C++ project file, containing settings and configuration for the project.
 
 ### Data Files
-- **[`data.csv`](/data.csv)**:
+- **`data.csv`**:
   - Stores the student records in a CSV format, used for importing/exporting data.
 
 ## How to Use
